@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:tech_assist/pallete.dart';
-import 'package:tech_assist/strings.dart';
+import 'package:tech_assist/constants/pallete.dart';
+import 'package:tech_assist/constants/strings.dart';
 
 class FeatureBox extends StatelessWidget {
   final Color color;

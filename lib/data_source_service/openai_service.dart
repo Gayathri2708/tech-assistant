@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:tech_assist/strings.dart';
+import 'package:tech_assist/constants/strings.dart';
 
 class OpenAIService {
   final List<Map<String, String>> messages = [];

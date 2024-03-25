@@ -1,14 +1,12 @@
 import 'package:animate_do/animate_do.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:speech_to_text/speech_recognition_result.dart';
 import 'package:speech_to_text/speech_to_text.dart';
-import 'package:tech_assist/feature_box.dart';
-import 'package:tech_assist/openai_service.dart';
-import 'package:tech_assist/pallete.dart';
-import 'package:tech_assist/strings.dart';
+import 'package:tech_assist/widgets/feature_box.dart';
+import 'package:tech_assist/data_source_service/openai_service.dart';
+import 'package:tech_assist/constants/pallete.dart';
+import 'package:tech_assist/constants/strings.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

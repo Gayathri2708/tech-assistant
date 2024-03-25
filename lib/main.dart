@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tech_assist/home_page.dart';
-import 'package:tech_assist/pallete.dart';
+import 'package:tech_assist/constants/strings.dart';
+import 'package:tech_assist/screens/home_page.dart';
+import 'package:tech_assist/constants/pallete.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Tech Assit',
+      title: Strings.techAssist,
       theme: ThemeData.light(useMaterial3: true).copyWith(
           scaffoldBackgroundColor: Pallete.whiteColor,
           appBarTheme: const AppBarTheme(backgroundColor: Pallete.whiteColor)),

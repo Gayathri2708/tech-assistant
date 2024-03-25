@@ -8,7 +8,7 @@
             "name": "tech_assist",
             "request": "launch",
             "type": "dart",
-            "toolArgs": ["--dart-define-from-file=.env/apiKay.json"]
+            "toolArgs": ["--dart-define-from-file=.env/apiKey.json"]
         },
         {
             "name": "tech_assist (profile mode)",
